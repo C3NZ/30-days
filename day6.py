@@ -4,7 +4,6 @@ words = []
 for i in range(num_words):
     words.append(input())
 
-output = []
 for word in words:
     even_word = ""
     odd_word = ""
@@ -15,7 +14,4 @@ for word in words:
         else:
             odd_word += word[i]
             
-    output.append(even_word + " " + odd_word)
-
-for word in output:
-    print(word)
+    print(even_word + " " + odd_word)
