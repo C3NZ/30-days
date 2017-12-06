@@ -12,9 +12,6 @@ while True:
         person = input()
     except EOFError:
         break
-        
-    if person == "":
-        break
     
     if person in phonebook.keys():
         print(person + "=" + phonebook[person])
